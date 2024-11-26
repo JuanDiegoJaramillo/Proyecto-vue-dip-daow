@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "types": ["vue"],
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node", 
+    "skipLibCheck": true, 
+    "target": "ESNext",
+    "jsx": "preserve",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    // Puedes añadir otras configuraciones según tus necesidades
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ]
+}
